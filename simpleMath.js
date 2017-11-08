@@ -65,4 +65,3 @@
 	global.simpleMath = global.sm = simpleMath;
 
 }(window));
-

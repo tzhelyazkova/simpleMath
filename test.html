@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>simpleMath test</title>
+</head>
+<body>
+<p>Execute test: multiply 5 by 3 and add 4</p>
+<p>Result should be: 19</p>
+<p>Actual result: <span id="res"></span></p>
+<script type="text/javascript" src="simpleMath.js"></script>
+<script type="text/javascript">
+	const simple = 5;
+	var res = sm(simple).mult(3).add(4).done();
+	document.getElementById("res").innerHTML = res;
+</script>
+
+</body>
+</html>
